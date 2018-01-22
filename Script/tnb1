@@ -1,0 +1,5 @@
+#!/bin/sh
+
+for x in item1 item2 item3; do
+	echo $x
+done
