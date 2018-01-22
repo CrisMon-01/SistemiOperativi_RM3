@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $1 = param ]; then
+	echo "you typed param"
+else 
+	echo "you haven't type"
+	echo you have type : '"'$1'"'
+fi

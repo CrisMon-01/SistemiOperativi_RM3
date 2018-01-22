@@ -1,0 +1,4 @@
+#!/bin/sh
+#try to displays studd in a dir
+echo "Program is starting..."
+ls -la
