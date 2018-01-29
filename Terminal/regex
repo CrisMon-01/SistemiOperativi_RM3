@@ -1,0 +1,20 @@
+#Tutte le parole che contengono una lettera seguita da "ake"
+egrep '[a-z]ake' File.txt
+#tutte le parole che iniziano con "cup"
+egrep '\<cup' File.txt
+#tutte le parole che contengono la parola cake preced da n caratteri alfabetici
+egrep '[a-zA-Z]*cake' File.txt
+#tutte le parole contenente un carattere seguito da 1 carattere 'c' rip 1 o + volte e seguito da s
+egrep 'c[a-z]+s' File.txt
+#tutte le parole contenenti almeno 2 volte il car 'm'
+egrep'm{2,}' File.txt
+#tutte le righe che init con liquirice o lemon
+egrep '^(Lemon|Liquirice)' File.txt
+#conta occorrenze della parola muffin
+grep -c 'muffin' File.txt
+#cerca le parole contenti 'ing'
+grep 'ing' File.txt
+#cerca rughe che cintengono jelly o candy che init con maiusc o min
+egrep '([jJ]elly)|([cC]andy)' File.txt
+#visualizza stringhe con ac e al più una b in mezzo
+egrep 'a.?c' File.txt

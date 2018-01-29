@@ -1,0 +1,6 @@
+abc
+abbc
+abbbc
+abb(ciao)c
+ac
+aa
