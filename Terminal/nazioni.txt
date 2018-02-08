@@ -1,0 +1,5 @@
+USSR	86250	262 	Asia
+USA 	3615	219	America
+Cina	3692	866	Asia
+Sudan	968	19	Africa
+Algeria	920	18	Africa	
