@@ -2,17 +2,18 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
-static void sig_usr(int); 
+
+static void handler(int); 
 /* one handler for both signals */
 int main(void) { 
-if (signal(SIGUSR1, sig_usr) == SIG_ERR) 
+if (signal(SIGUSR1, handler) == SIG_ERR) 
     perror("can't catch SIGUSR1"); 
-if (signal(SIGUSR2, sig_usr) == SIG_ERR) 
+if (signal(SIGUSR2, handler) == SIG_ERR) 
     perror("can't catch SIGUSR2"); 
 for ( ; ; ) 
     pause(); 
 }
-static void sig_usr(int signo) {   
+static void handler(int signo) {   
 /* argument is signal number */
 if (signo == SIGUSR1) 
     printf("received SIGUSR1\n"); 

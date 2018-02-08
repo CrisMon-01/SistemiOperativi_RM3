@@ -17,7 +17,7 @@ int main (){
   }
   else {
     wait(&status);
-      printf("pid figlio %d \n ha terminato con: %d \n", pid,WEXITSTATUS(status));
+      printf("pid figlio %d \nha terminato con: %d \n", pid,WEXITSTATUS(status));
 	exit(0);
   }
   }
