@@ -1,0 +1,5 @@
+roma juve 	2 0
+napoli roma 	3 0
+juve roma 	5 2
+lazio roma 	2 1
+roma lazio 	1 2

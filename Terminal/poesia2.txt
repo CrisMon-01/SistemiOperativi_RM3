@@ -1,0 +1,4 @@
+ciao questo è un testo
+stampero fino a crine 
+quindi questa parte 
+non verrà stampata
